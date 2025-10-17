@@ -12,8 +12,10 @@ namespace appTarefas
 {
     public partial class MenuLogin : Form
     {
+        DAOUsuario dao;
         public MenuLogin()
         {
+            dao = new DAOUsuario();
             InitializeComponent();
         }
 
@@ -29,8 +31,19 @@ namespace appTarefas
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MenuPrincipal menuPrincipal = new MenuPrincipal();
-            menuPrincipal.ShowDialog();
+            string email = textBox1.Text;
+            string senha = textBox2.Text;
+            Boolean resultado = dao.VerificarLogin(email, senha);
+
+            if (resultado == true)
+            {
+                MenuPrincipal Menuprincipal = new MenuPrincipal();
+                Menuprincipal.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Email e/ou senha inválida, tente novamente");
+            }
         }//Botão Entrar
 
         private void pictureBox1_Click(object sender, EventArgs e)

@@ -51,6 +51,8 @@
             textBox10 = new TextBox();
             label11 = new Label();
             button3 = new Button();
+            textBox6 = new TextBox();
+            label7 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -140,7 +142,7 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(566, 201);
+            textBox2.Location = new Point(566, 179);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(278, 23);
             textBox2.TabIndex = 44;
@@ -151,7 +153,7 @@
             label3.AutoSize = true;
             label3.BackColor = SystemColors.ActiveBorder;
             label3.Font = new Font("Tahoma", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(504, 201);
+            label3.Location = new Point(504, 179);
             label3.Name = "label3";
             label3.Size = new Size(56, 23);
             label3.TabIndex = 43;
@@ -159,7 +161,7 @@
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(600, 239);
+            textBox3.Location = new Point(600, 217);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(244, 23);
             textBox3.TabIndex = 46;
@@ -170,7 +172,7 @@
             label4.AutoSize = true;
             label4.BackColor = SystemColors.ActiveBorder;
             label4.Font = new Font("Tahoma", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(504, 239);
+            label4.Location = new Point(504, 217);
             label4.Name = "label4";
             label4.RightToLeft = RightToLeft.Yes;
             label4.Size = new Size(90, 23);
@@ -179,7 +181,7 @@
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(604, 279);
+            textBox4.Location = new Point(604, 257);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(240, 23);
             textBox4.TabIndex = 48;
@@ -190,7 +192,7 @@
             label5.AutoSize = true;
             label5.BackColor = SystemColors.ActiveBorder;
             label5.Font = new Font("Tahoma", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(504, 279);
+            label5.Location = new Point(504, 257);
             label5.Name = "label5";
             label5.RightToLeft = RightToLeft.Yes;
             label5.Size = new Size(94, 23);
@@ -199,7 +201,7 @@
             // 
             // textBox5
             // 
-            textBox5.Location = new Point(653, 316);
+            textBox5.Location = new Point(653, 294);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(191, 23);
             textBox5.TabIndex = 50;
@@ -210,7 +212,7 @@
             label6.AutoSize = true;
             label6.BackColor = SystemColors.ActiveBorder;
             label6.Font = new Font("Tahoma", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.Location = new Point(504, 316);
+            label6.Location = new Point(504, 294);
             label6.Name = "label6";
             label6.RightToLeft = RightToLeft.Yes;
             label6.Size = new Size(143, 23);
@@ -219,7 +221,7 @@
             // 
             // textBox8
             // 
-            textBox8.Location = new Point(566, 354);
+            textBox8.Location = new Point(566, 332);
             textBox8.Name = "textBox8";
             textBox8.Size = new Size(278, 23);
             textBox8.TabIndex = 56;
@@ -230,7 +232,7 @@
             label9.AutoSize = true;
             label9.BackColor = SystemColors.ActiveBorder;
             label9.Font = new Font("Tahoma", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label9.Location = new Point(504, 354);
+            label9.Location = new Point(504, 332);
             label9.Name = "label9";
             label9.RightToLeft = RightToLeft.Yes;
             label9.Size = new Size(55, 23);
@@ -239,7 +241,7 @@
             // 
             // textBox9
             // 
-            textBox9.Location = new Point(608, 393);
+            textBox9.Location = new Point(608, 371);
             textBox9.Name = "textBox9";
             textBox9.Size = new Size(237, 23);
             textBox9.TabIndex = 58;
@@ -250,7 +252,7 @@
             label10.AutoSize = true;
             label10.BackColor = SystemColors.ActiveBorder;
             label10.Font = new Font("Tahoma", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label10.Location = new Point(505, 393);
+            label10.Location = new Point(505, 371);
             label10.Name = "label10";
             label10.RightToLeft = RightToLeft.Yes;
             label10.Size = new Size(97, 23);
@@ -259,7 +261,7 @@
             // 
             // textBox10
             // 
-            textBox10.Location = new Point(591, 429);
+            textBox10.Location = new Point(591, 407);
             textBox10.Name = "textBox10";
             textBox10.Size = new Size(253, 23);
             textBox10.TabIndex = 60;
@@ -270,7 +272,7 @@
             label11.AutoSize = true;
             label11.BackColor = SystemColors.ActiveBorder;
             label11.Font = new Font("Tahoma", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label11.Location = new Point(504, 429);
+            label11.Location = new Point(504, 407);
             label11.Name = "label11";
             label11.RightToLeft = RightToLeft.Yes;
             label11.Size = new Size(81, 23);
@@ -289,6 +291,27 @@
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
+            // textBox6
+            // 
+            textBox6.Location = new Point(645, 440);
+            textBox6.Name = "textBox6";
+            textBox6.Size = new Size(199, 23);
+            textBox6.TabIndex = 63;
+            textBox6.TextChanged += textBox6_TextChanged;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.BackColor = SystemColors.ActiveBorder;
+            label7.Font = new Font("Tahoma", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label7.Location = new Point(504, 440);
+            label7.Name = "label7";
+            label7.RightToLeft = RightToLeft.Yes;
+            label7.Size = new Size(135, 23);
+            label7.TabIndex = 62;
+            label7.Text = "Código Usuário\r\n";
+            label7.Click += label7_Click;
+            // 
             // MenuAtualizar
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -296,6 +319,8 @@
             BackgroundImage = Properties.Resources.windows_xp_back;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1366, 647);
+            Controls.Add(textBox6);
+            Controls.Add(label7);
             Controls.Add(button3);
             Controls.Add(textBox10);
             Controls.Add(label11);
@@ -354,5 +379,7 @@
         private TextBox textBox10;
         private Label label11;
         private Button button3;
+        private TextBox textBox6;
+        private Label label7;
     }
 }

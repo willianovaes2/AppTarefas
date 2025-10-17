@@ -38,3 +38,4 @@ C:\Users\willian.dnovaes\source\repos\appTarefas\appTarefas\obj\Debug\net8.0-win
 C:\Users\willian.dnovaes\source\repos\appTarefas\appTarefas\obj\Debug\net8.0-windows\appTarefas.pdb
 C:\Users\willian.dnovaes\source\repos\appTarefas\appTarefas\obj\Debug\net8.0-windows\appTarefas.genruntimeconfig.cache
 C:\Users\willian.dnovaes\source\repos\appTarefas\appTarefas\obj\Debug\net8.0-windows\ref\appTarefas.dll
+C:\Users\willian.dnovaes\source\repos\appTarefas\appTarefas\obj\Debug\net8.0-windows\appTarefas.sourcelink.json
